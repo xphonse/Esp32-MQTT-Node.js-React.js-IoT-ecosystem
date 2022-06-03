@@ -1,0 +1,19 @@
+{
+  "name": "mqtt-server",
+  "version": "1.0.0",
+  "description": "Servidor MQTT para recibiri información de un microcontrolador y reenviarla a un servidor externo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Alfonso Ramirez Gutierrez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mqtt": "^4.3.7",
+    "mysql": "^2.18.1",
+    "pusher": "^5.1.0-beta"
+  }
+}
