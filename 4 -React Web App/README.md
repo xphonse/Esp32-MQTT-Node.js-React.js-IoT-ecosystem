@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+#English
+## Description
+The code in this folder corresponds to a web page developed in React.js. It fulfills two functions, to show the current boolean state and  to communicate with a button with the Node.js server, which in turn will communicate with the actuator microcontroller to generate changes in the hardware.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Instalation
+The latest version of [Node.js](https://nodejs.org/es/ "Node.js") must be installed. Then, from the current directory, the command: `npm install` must be executed. This will install all the necessary packages listed in the package.json file.
 
-## Available Scripts
+Finally, the command `npm start` must be executed, with which the page will be executed.
 
-In the project directory, you can run:
+###  Recommendations
+The credentials obtained from the Pusher service can be changed in the file [LedIndicator.jxs](https://github.com/xphonse/Esp32-MQTT-Node.js-React.js-IoT-ecosystem/blob/main/4 %20-React%20Web%20App/src/components/LedIndicator.jsx "LedIndicator.jxs").
+In case the server is not located locally and it is necessary to change the url where the page will be communicated, it can be done from the file [SwapValueButton.jsx](https://github.com/xphonse/Esp32-MQTT -Node.js-React.js-IoT-ecosystem/blob/main/4%20-React%20Web%20App/src/components/SwapValueButton.jsx "SwapValueButton.jsx").
 
-### `npm start`
+# Español
+## Descripción
+El código de este folder corresponde a una página web desarrollada en React.js. Cumple dos funciones, mostrar el estado booleano actual y con un botón comunicarse con el servidor de Node.js, que a su vez se comunicará con el microocontrolador actuador para generar cambios en el hardware.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instalación
+Se debe instalar la última versión de [Node.js](https://nodejs.org/es/ "Node.js").
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Después, se debe ejecutar desde el actual directorio el comando: `npm install`. Esto instalara todos los paquetes necesarios indicados en el archivo package.json. 
 
-### `npm test`
+Finalmente, se debe ejecutar el comando `npm start`, con lo que la pagina se ejecutara.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+###  Recomendaciones
+Las credenciales obtenidas del servicio de Pusher se pueden cambiar en el archivo [LedIndicator.jxs](https://github.com/xphonse/Esp32-MQTT-Node.js-React.js-IoT-ecosystem/blob/main/4%20-React%20Web%20App/src/components/LedIndicator.jsx "LedIndicator.jxs").
+En caso de que el servidor no se encuentre de forma local y sea necesario cambiar la url a donde se comunicara la página, se puede hacer desde el archivo [SwapValueButton.jsx](https://github.com/xphonse/Esp32-MQTT-Node.js-React.js-IoT-ecosystem/blob/main/4%20-React%20Web%20App/src/components/SwapValueButton.jsx "SwapValueButton.jsx").
