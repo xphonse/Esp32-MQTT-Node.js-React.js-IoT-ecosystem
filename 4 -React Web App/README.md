@@ -1,4 +1,4 @@
-#English
+# English
 ## Description
 The code in this folder corresponds to a web page developed in React.js. It fulfills two functions, to show the current boolean state and  to communicate with a button with the Node.js server, which in turn will communicate with the actuator microcontroller to generate changes in the hardware.
 
